@@ -1,0 +1,565 @@
+/* font-family: 'Lato', sans-serif; */
+
+
+*{
+
+    padding: 0;
+    margin:0;
+}
+
+
+
+
+
+/*************************************************
+
+                    LOADING PAGE
+
+**************************************************/
+
+#loader{
+
+    background: #002155;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.loading-page{
+
+    background: #143975;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.loading-page .counter h1{
+
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 300px;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.loading-page .counter h2{
+
+    position: fixed;
+    top: 70%;
+    left:40%;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: -10px;
+
+}
+
+
+
+
+/*************************************************
+
+                    NAVIGATION
+
+**************************************************/
+
+
+#header{
+
+    background-image: url('../images/boxing_bg_media.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav li a{
+
+    float: right;
+    color:#fff!important;
+    font-family: 'Berkshire Swash', cursive;  
+    font-size: 22px;
+}
+
+.navbar-toggler{
+
+    border: none!important;
+    outline: none!important;
+}
+
+nav .fa-align-right{
+
+    color:#fff!important;
+    font-size: 26px;
+}
+
+
+
+/*************************************************
+
+                    WELCOME
+
+**************************************************/
+
+
+.welcome{
+
+    padding: 50px 100px;
+    margin-top: -140px;
+    background: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1{
+
+    color:#333;
+    font-family: 'Berkshire Swash', cursive; 
+}
+
+.welcome .home-btn{
+
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color:#fff;
+    background-color: #013f73;
+}
+
+.welcome .btn:focus{
+
+    box-shadow: none;
+}
+
+
+
+
+/*************************************************
+
+                    ABOUT
+
+**************************************************/
+
+
+
+#about{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .colum-one{
+
+    padding:20px 10px;
+}
+
+#about h3{
+
+    margin:20px auto;
+    font-family: 'Berkshire Swash', cursive;    
+}
+
+
+#about .colum-two{
+
+    padding:20px 10px;
+}
+
+
+
+
+/*************************************************
+
+                    SERVICES
+
+**************************************************/
+
+
+
+#services{
+
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .our-services{
+
+   padding:20px;
+}
+
+#services h1{
+
+    font-family: 'Berkshire Swash', cursive;  
+
+}
+
+#services .our-services h4{
+
+    font-family: 'Berkshire Swash', cursive;  
+    padding:5px;
+}
+
+
+
+
+#services .our-services p{
+
+    padding:5px;
+    text-align: justify;
+}
+
+
+
+/*************************************************
+
+                    FEATURES
+
+**************************************************/
+
+
+
+#features{
+
+    
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('../images/exercise_bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  color:white;
+  padding:2rem 2rem 5rem 2rem;
+}
+
+ 
+
+
+#features .feature{
+
+    padding:20px;
+}
+
+.feature-box{
+
+    height:120px;
+}
+
+.feature-box .feature-left{
+
+    height:120px;
+    width:20%;
+    float: left;
+}
+
+.feature-box .feature-left .fa{
+
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+.feature-box .feature-left .far{
+
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+
+.feature-box .feature-right{
+
+    height:120px;
+    width:80%;
+    float: left;
+}
+
+.feature-box .feature-right h4{
+
+   padding-top: 10px;
+   padding-left: 15px;
+   text-align: left;
+}
+
+.feature-box .feature-right p{
+
+    
+    padding-left: 15px;
+    text-align: left;
+ }
+
+
+
+
+ 
+/*************************************************
+
+                    TESTIMONIALS
+
+**************************************************/
+
+
+#testimonials{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#testimonials .first-review{
+
+    padding:30px 30px;
+}
+
+#testimonials img{
+
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top:-40px;
+    border:5px solid #fff;
+    margin-bottom: 30px;
+}
+
+.review{
+
+    font-size:16px;
+    padding:10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+.review .fa-twitter{
+
+    color:#013f7e;
+}
+
+#testimonials span{
+
+    color:#013f7e;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+#testimonials h1{
+
+    margin-bottom: 20px;
+    color:#013f7e;
+    font-family: 'Berkshire Swash', cursive;  
+}
+
+#testimonials p{
+
+    padding-bottom: 20px;
+    
+}
+
+
+#testimonials .middle{
+
+    margin-bottom: -30px;
+    margin-top:-30px;
+    
+}
+
+
+/*************************************************
+
+                    SUBSCRIBE
+
+**************************************************/
+
+
+
+
+.subscribe{
+
+    padding:50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+}
+
+
+.subscribe h3, .subscribe p{
+
+    color:#fff;
+}
+
+
+.subscribe .input-group{
+
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin:10px auto;
+    padding:5px;
+}
+
+
+.subscribe .form-control{
+
+    border:none;
+    background: transparent;
+}
+
+.subscribe .form-control:focus{
+
+   box-shadow: none;
+    background: transparent;
+}
+
+.subscribe .input-group-append{
+
+    
+     background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+     border-radius: 30px;
+
+ }
+
+
+ .subscribe .input-group-text{
+
+    
+    background:transparent;
+    border: none;
+    color:white;
+
+}
+
+
+.subscribe .btn:focus{
+
+    
+    box-shadow: none;
+
+}
+
+
+
+/*************************************************
+
+                    FOOTER
+
+**************************************************/
+
+
+#footer{
+
+    margin-top:80px;
+    padding:100px;
+    background-color: #333;
+    color:#013f7e;
+}
+
+
+.footer-logo{
+
+    width:150px;
+    margin-top:25px;
+    margin-bottom: 15px;
+}
+
+#footer h1{
+
+    font-size:25px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#footer p{
+
+    font-size:15px;
+    text-align: left;
+    color:#efefef;
+    
+}
+
+
+
+
+#footer .row .fa {
+
+    padding-right:20px;
+    font-size: 15px;
+}
+
+#footer .fas {
+
+    padding-right:20px;
+    font-size: 15px;
+}
+
+
+#footer .social .fab  {
+
+    padding-right:20px;
+    font-size: 15px;
+    
+    
+    
+}
+
+.link{
+    color:#efefef;
+    text-decoration: none!important;
+}
+
+.link:hover{
+
+    color: rgb(4, 19, 29);
+}
+
+
+#footer hr{
+
+    margin-top:10px;
+
+}
+
+
+#footer .copyright{
+
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*****************************
+
+	SCROLL TO TOP SECTION
+
+*****************************/
+
+
+.scrollTop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	background: white;
+	color: black !important;
+	z-index: 999;
+	display: none;
+}
+
+.scrollTop:hover {
+	background: black;
+    color: #fff !important;
+    transition: .5s ease-in-out;
+}

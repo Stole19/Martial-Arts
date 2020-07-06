@@ -1,0 +1,192 @@
+
+
+
+/**********************************
+
+            PRELOADER
+
+**********************************/
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+   
+.loading-page .counter h1{
+
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -35px;
+}
+
+.loading-page .counter h2{
+
+    position: fixed;
+    top: 70%;
+    left:40%;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -30px;
+
+}
+}
+
+
+
+
+/**********************************
+
+            HEADER
+
+**********************************/
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    #header .nav-item .nav-link{
+
+        font-size: 12px;
+    }
+}
+
+
+
+
+/**********************************
+
+            WELCOME
+
+**********************************/
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+
+    .welcome h1{
+
+        font-size: 25px;
+    }
+
+    .welcome p{
+
+        font-size: 15px;
+    }
+
+   .welcome .home-btn{
+
+    font-size: 15px;
+    margin-left: 1px;
+   }
+}
+
+
+
+
+/**********************************
+
+            FEATURES
+
+**********************************/
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .feature-box .feature-left .fa{
+
+        font-size: 25px;
+    }
+
+    .feature-box .feature-left .far{
+
+        font-size: 25px;
+    }
+
+    .feature-box .feature-right h4{
+
+        font-size: 20px;
+    }
+
+    .feature-box .feature-right p{
+
+        font-size: 12px;
+    }
+
+    .feature .last{
+
+        margin-top:10%;
+    }
+
+  
+
+}
+
+
+
+
+
+
+/**********************************
+
+            FOOTER
+
+**********************************/
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+
+    #footer .media_one h1 {
+
+        font-size: 20px;
+    }
+
+    #footer .media_one p {
+
+        font-size: 12px;
+    }
+
+    #footer .media_one  {
+
+        align-items: left;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+#footer .media_one h1 {
+
+    font-size: 30px;
+    margin-left: 20%;
+
+}
+
+#footer .media_one p {
+
+    font-size: 15px;
+    margin-left: 20%;
+   
+
+}
+
+
+#footer .media_one .feature{
+
+    margin-top: 60%;
+}
+
+}
